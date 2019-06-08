@@ -15,7 +15,7 @@ Get an under powered car to the top of a hill (top = 0.5 position)
 |2	|push right|
 
 ## Reward
--1 for each time step, until the goal position of 0.5 is reached. As with MountainCarContinuous v0, there is no penalty for climbing the left hill, which upon reached acts as a wall.
+-1 for each time step, until the goal position of 0.5 is reached. There is no penalty for climbing the left hill, which upon reached acts as a wall.
 
 ## Starting State
 Random position from -0.6 to -0.4 with no velocity.
