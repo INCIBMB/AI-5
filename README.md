@@ -24,9 +24,18 @@ Random position from -0.6 to -0.4 with no velocity.
 The episode ends when you reach 0.5 position, or if 200 iterations are reached.
 
 ## Installation
-You can perform a minimal install of `gym` with:
+Run the following commands to install `gym` and get your project files:
 
 ```
 pip3 install gym
 git clone https://github.com/INCIBMB/AI-5.git
+```
+
+## Testing
+Open python3 and run the following commands
+
+```
+import gym
+env=gym.make('MountainCar-v0')
+env.reset()
 ```
